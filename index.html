@@ -1,10 +1,171 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<title>노현영 | Web Developer Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="홍익대학교 소프트웨어융합학과 노현영의 웹 개발 포트폴리오입니다." />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
+<body class="landing is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header" class="alt">
+		<h1><a href="index.html">NOH HYUNYOUNG</a></h1>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							<li><a href="#banner" class="scrolly">Home</a></li>
+							<li><a href="#one" class="scrolly">About</a></li>
+							<li><a href="#two" class="scrolly">Projects</a></li>
+							<li><a href="#three" class="scrolly">Skills</a></li>
+							<li><a href="#cta" class="scrolly">Contact</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Banner -->
+	<section id="banner">
+		<div class="inner">
+			<h2>NOH HYUNYOUNG</h2>
+			<p>사용하기 편한 화면과<br />
+				기능이 자연스럽게 연결되는 웹을 만드는<br />
+				소프트웨어융합학과 학생 개발자입니다.</p>
+			<ul class="actions special">
+				<li><a href="#two" class="button primary scrolly">View Projects</a></li>
+			</ul>
+		</div>
+		<a href="#one" class="more scrolly">Learn More</a>
+	</section>
+
+	<!-- About -->
+	<section id="one" class="wrapper style1 special">
+		<div class="inner">
+			<header class="major">
+				<h2>아이디어를 실제로 동작하는<br />웹 서비스로 구현합니다.</h2>
+				<p>홍익대학교 소프트웨어융합학과에서 웹 개발과 소프트웨어 기초를 공부하고 있습니다.<br />
+					HTML, CSS, JavaScript를 중심으로 사용자 화면을 구현하고,<br />
+					React와 Spring을 학습하며 프론트엔드와 백엔드를 함께 이해하는 개발자를 목표로 하고 있습니다.</p>
+			</header>
+			<ul class="icons major">
+				<li><span class="icon solid fa-code major style1"><span class="label">Development</span></span></li>
+				<li><span class="icon solid fa-palette major style2"><span class="label">Design</span></span></li>
+				<li><span class="icon solid fa-lightbulb major style3"><span class="label">Ideas</span></span></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Projects -->
+	<section id="two" class="wrapper alt style2">
+		<section class="spotlight">
+			<div class="image"><img src="images/pic01.jpg" alt="Fitness Log 프로젝트 이미지" /></div><div class="content">
+			<h2>FITNESS LOG<br />운동 기록 웹 서비스</h2>
+			<p>운동 종목, 무게, 횟수와 날짜를 기록하고 조회할 수 있는 웹 프로젝트입니다. 기록 수정과 삭제, 날짜 검색, 최고 중량 통계 기능을 구현해 사용자가 자신의 운동 변화를 쉽게 확인할 수 있도록 구성했습니다.</p>
+			<p><strong>HTML · CSS · JavaScript · LocalStorage</strong></p>
+		</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="images/pic02.jpg" alt="Life Quest 프로젝트 이미지" /></div><div class="content">
+			<h2>LIFE QUEST<br />게임형 투두리스트</h2>
+			<p>해야 할 일을 퀘스트처럼 등록하고 완료하는 개인 일정 관리 서비스입니다. 난이도 선택, 진행률 표시, 완료 처리, 수정과 삭제 기능을 제공하며 Supabase 연동을 통해 데이터를 저장할 수 있도록 구성했습니다.</p>
+			<p><strong>HTML · CSS · JavaScript · Supabase</strong></p>
+		</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="images/pic03.jpg" alt="Movie Search 프로젝트 이미지" /></div><div class="content">
+			<h2>MOVIE SEARCH<br />OMDb 영화 검색 서비스</h2>
+			<p>OMDb API를 활용해 영화 제목을 검색하고 결과를 화면에 출력하는 React 프로젝트입니다. 검색창과 검색 태그를 컴포넌트로 분리하고, styled-components를 사용해 재사용 가능한 UI 구조를 연습했습니다.</p>
+			<p><strong>React · JavaScript · styled-components · OMDb API</strong></p>
+		</div>
+		</section>
+	</section>
+
+	<!-- Skills -->
+	<section id="three" class="wrapper style3 special">
+		<div class="inner">
+			<header class="major">
+				<h2>Skills & Strengths</h2>
+				<p>완성된 결과물뿐 아니라 구조를 이해하고 직접 수정할 수 있는 개발을 중요하게 생각합니다.</p>
+			</header>
+			<ul class="features">
+				<li class="icon solid fa-code">
+					<h3>HTML / CSS</h3>
+					<p>시맨틱 마크업과 반응형 레이아웃을 활용해 다양한 화면 크기에 대응하는 웹 페이지를 구현합니다.</p>
+				</li>
+				<li class="icon brands fa-js">
+					<h3>JavaScript</h3>
+					<p>DOM 조작, 이벤트 처리, LocalStorage와 API 연동을 활용해 실제로 동작하는 기능을 구현합니다.</p>
+				</li>
+				<li class="icon brands fa-react">
+					<h3>React</h3>
+					<p>컴포넌트 분리와 상태 흐름을 학습하며 재사용 가능한 화면 구조를 만드는 연습을 하고 있습니다.</p>
+				</li>
+				<li class="icon solid fa-server">
+					<h3>Spring</h3>
+					<p>Java와 Spring MVC를 기반으로 컨트롤러, 요청 처리, 데이터베이스 연동 구조를 학습하고 있습니다.</p>
+				</li>
+				<li class="icon solid fa-database">
+					<h3>Database</h3>
+					<p>Supabase를 활용한 데이터 저장과 CRUD 구조를 경험했으며 관계형 데이터베이스의 기본 개념을 공부하고 있습니다.</p>
+				</li>
+				<li class="icon solid fa-users">
+					<h3>Collaboration</h3>
+					<p>Git과 GitHub 브랜치, 커밋, Push, Pull Request 흐름을 활용해 팀 프로젝트 협업 방식을 연습했습니다.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section id="cta" class="wrapper style4">
+		<div class="inner">
+			<header>
+				<h2>함께 성장하는 개발자가 되겠습니다.</h2>
+				<p>새로운 기술을 배우고 직접 구현하며, 사용자에게 필요한 기능을 고민하는 개발자로 성장하고 있습니다.</p>
+			</header>
+			<ul class="actions stacked">
+				<li><a href="https://github.com/nohy0709-boop" class="button fit primary" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+				<li><a href="#banner" class="button fit scrolly">Back To Top</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="https://github.com/nohy0709-boop" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+			<li><a href="#banner" class="icon solid fa-home scrolly"><span class="label">Home</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; 2026 NOH HYUNYOUNG</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
